@@ -10,7 +10,7 @@ Ensures a class has only one instance while providing a global access point to t
 - Private constructor to prevent external instantiation
 - Thread-safe implementation to handle concurrent access
 
-![Singleton Pattern](images/singleton.png)
+![Singleton Pattern](https://github.com/akshay0101/Design-Pattern/blob/main/Images/singleton.png?raw=true)
 
 #### Implementation Details:
 
@@ -29,3 +29,15 @@ Ensures a class has only one instance while providing a global access point to t
 This implementation ensures both thread safety and optimal performance in multi-threaded environments.
 
 ### Factory Pattern
+
+Creates objects without exposing the instantiation logic to the client and refers to the newly created object through a common interface.
+
+Key characteristics:
+- **Loosens coupling** by separating product construction code from the code that uses the product
+- It is a factory **METHOD** pattern that relies heavily on **inheritance**
+- Lets creator subclasses decide which class to instantiate
+- Useful when you don't know beforehand the **exact types and dependencies** of the objects your code should work with
+- Makes it easy to **extend the product construction code** independently from the rest of the application
+
+
+![Factory Pattern](https://github.com/akshay0101/Design-Pattern/blob/main/Images/factoryy.png?raw=true)
